@@ -4,6 +4,7 @@ import './Achievement.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { achievementData } from '../../data/achievementData'
 import AchievementCard from './AchievementCard';
+import bookImage from '../../assets/png/books.png';
 
 function Achievement() {
 
@@ -13,8 +14,9 @@ function Achievement() {
             {achievementData.achievements.length > 0 && (
                 <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
                 <div className="achievement-body">
-                    <h1 style={{color: theme.primary}}>Achievements</h1>
+                    <h1 style={{color: theme.primary}}>자격증</h1>
                     <h4 style={{color:theme.tertiary}}>{achievementData.bio}</h4>
+                    {/* <img style="margin-top: 56%;width: 131%;"src={bookImage} alt="book" className="book-image"/> */}
                 </div>
                 <div className="achievement-cards">
                     {achievementData.achievements.map(achieve => ( 

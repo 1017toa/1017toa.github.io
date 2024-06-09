@@ -74,7 +74,10 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
-
+import pinecone from '../assets/svg/skills/pinecone.svg'
+import fastapi from '../assets/svg/skills/fastapi.svg'
+import openai from '../assets/svg/skills/openai.svg'
+import langchain from '../assets/svg/skills/langchain.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +230,16 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'springboot':
+            return 'https://upload.wikimedia.org/wikipedia/commons/7/79/Spring_Boot.svg';
+        case 'pinecone':
+            return pinecone;
+        case 'fastapi':
+            return fastapi;
+        case 'openai':
+            return openai;
+        case 'langchain':
+            return langchain;
         default:
             break;
     }

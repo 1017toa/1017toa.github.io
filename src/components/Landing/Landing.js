@@ -75,7 +75,7 @@ function Landing() {
                     style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
-                        {socialsData.linkedIn && (
+                        {/* {socialsData.linkedIn && (
                             <a
                                 href={socialsData.linkedIn}
                                 target='_blank'
@@ -87,7 +87,7 @@ function Landing() {
                                     aria-label='LinkedIn'
                                 />
                             </a>
-                        )}
+                        )} */}
                         {socialsData.github && (
                             <a
                                 href={socialsData.github}
@@ -101,7 +101,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {/* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -139,7 +139,7 @@ function Landing() {
                                     aria-label='Blogger'
                                 />
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img

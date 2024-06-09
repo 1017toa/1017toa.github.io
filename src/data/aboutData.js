@@ -1,6 +1,6 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    title: "자기소개",
+    description1: "2020년 국비 교육과정(클라우드 엔지니어)로 개발을 시작했습니다. 이후 스터디카페 키오스크(웹) 업체에서 백엔드 개발자로 2년간 근무했습니다. 주로 테크 리드의 역할로 일했고 개발 문화의 개선과 업무 능률 향상, 서버 개선, 결제 및 정산, 알림톡 등의 업무를 담당했습니다.",
+    description2: "24.04 ~ 06 두 달간 캐릭터와 메일을 주고 받는 Ai 서비스를 개발하는 프로젝트 팀장 역할을 수행했습니다. 애자일 방법론을 활용한 업무 주도, 랭체인 및 프롬프트 엔지니어링, Ai 이미지 생성, 클라우드 환경 구축 등의 업무를 담당했습니다.",
     image: 2
 }

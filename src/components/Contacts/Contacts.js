@@ -135,6 +135,7 @@ function Contacts() {
         if (name && email && message) {
             if (isEmail(email)) {
                 const responseData = {
+                    id: 'INCREMENT',
                     name: name,
                     email: email,
                     message: message,
@@ -313,16 +314,6 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaTwitter aria-label='Twitter' />
-                                </a>
-                            )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -333,6 +324,17 @@ function Contacts() {
                                     <FaGithub aria-label='GitHub' />
                                 </a>
                             )}
+                            {/* {socialsData.twitter && (
+                                <a
+                                    href={socialsData.twitter}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaTwitter aria-label='Twitter' />
+                                </a>
+                            )}
+                            
                             {socialsData.linkedIn && (
                                 <a
                                     href={socialsData.linkedIn}
@@ -342,8 +344,8 @@ function Contacts() {
                                 >
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
-                            )}
-                            {socialsData.instagram && (
+                            )} */}
+                            {/* {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
                                     target='_blank'
@@ -422,7 +424,7 @@ function Contacts() {
                                 >
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </div>
