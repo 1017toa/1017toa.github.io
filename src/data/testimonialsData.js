@@ -11,45 +11,45 @@ import boy3 from '../assets/svg/testimonials/boy3.svg'
 export const testimonialsData = [
     {
         id: 1,
-        name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
-        image: boy2
+        name: '장모 군',
+        title: 'AI 프로젝트 팀원',
+        text: "한샘님은 프로젝트 기간 동안 팀원들의 진행 상황과 어려움을 세심하게 체크하며 큰 리더십을 발휘하셨습니다. 모르는 문제를 함께 고민하고 해결해 주셔서 팀 분위기가 좋았고, 성공적으로 프로젝트를 마칠 수 있었습니다.",
+        image: boy1
     },
     {
         id: 2,
-        name: 'Monica Geller',
-        title: 'Head Chef',
-        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
-        image: girl2
+        name: '유광중',
+        title: 'AI 프로젝트 팀원',
+        text: "같이 일하는 동안 질문을 진짜 많이 했는데 한번도 화 안내고 친절히 알려줬습니다. 아는 것도 많고 최고의 팀장!",
+        image: boy2
     },
     {
         id: 3,
-        name: 'Phoebe Buffay',
-        title: 'Massuese',
-        text: "Heard of the song 'Smelly Cat!!' ? This website made it viral. Plus portfolio is the only thing that Ursula doesn't have :)",
+        name: '박모 양',
+        title: '전 직장 동료 개발자',
+        text: "\"알잘딱깔센 그 자체\"",
         image: girl1
     },
     {
         id: 4,
-        name: 'Joey Tribbiani',
-        title: 'Actor',
-        text: "Making my portfolio with this helped me get my role as 'Dr. Drake Ramoray' in 'Days Of Our Lives'. You guys are the best !",
-        image: boy1
-    },
-    {
-        id: 5,
-        name: 'Rachel Green',
-        title: 'Sales Executive',
-        text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-        image: girl3
-    },
-    {
-        id: 6,
-        name: 'Ross Geller',
-        title: 'Paleontologist',
-        text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
+        name: '이모 군',
+        title: '전 직장 동료 개발자',
+        text: "\"살아있는 데이터베이스, Ai는 더 발전해야한다\"",
         image: boy3
-    }
+    },
+    // {
+    //     id: 5,
+    //     name: 'Rachel Green',
+    //     title: 'Sales Executive',
+    //     text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
+    //     image: girl3
+    // },
+    // {
+    //     id: 6,
+    //     name: 'Ross Geller',
+    //     title: 'Paleontologist',
+    //     text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
+    //     image: boy3
+    // }
 ]
 
