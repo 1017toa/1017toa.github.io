@@ -34,7 +34,7 @@ export const testimonialsData = [
         id: 4,
         name: '이모 군',
         title: '전 직장 동료 개발자',
-        text: "\"살아있는 데이터베이스, Ai는 더 발전해야한다\"",
+        text: "\"살아있는 데이터베이스, AI는 더 발전해야한다\"",
         image: boy3
     },
     // {
