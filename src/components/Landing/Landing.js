@@ -172,7 +172,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        이력서 PDF
                                     </Button>
                                 </a>
                             )}

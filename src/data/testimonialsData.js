@@ -37,13 +37,13 @@ export const testimonialsData = [
         text: "\"살아있는 데이터베이스, AI는 더 발전해야한다\"",
         image: boy3
     },
-    // {
-    //     id: 5,
-    //     name: 'Rachel Green',
-    //     title: 'Sales Executive',
-    //     text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-    //     image: girl3
-    // },
+    {
+        id: 5,
+        name: '최모 양',
+        title: '전 직장 동료 개발자',
+        text: '한샘님은 코드 관련 질문에 항상 다양한 해결 방법을 제시해 주시고 문제 해결을 도와주셨습니다. 또한, 질문한 문제들에 대해 지속적으로 관심을 가지고 피드백을 주셨습니다. 한샘님 덕분에 팀 리더의 중요성을 깨달았습니다!',
+        image: girl2
+    },
     // {
     //     id: 6,
     //     name: 'Ross Geller',
