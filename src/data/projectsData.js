@@ -33,7 +33,7 @@ export const projectsData = [
         projectDesc: '생성형 AI를 활용한 영화 및 드라마 속 캐릭터와 메일로 소통하는 시스템',
         tags: ['RAG', '이미지 생성', 'fastapi', 'react', 'AWS'],
         code: 'https://github.com/A-IDLE',
-        demo: 'https://github.com/A-IDLE',
+        demo: 'https://drive.google.com/file/d/1i8mQLnlLtzUHOgCyoeReZ9Jim6YSsIft/view?usp=sharing',
         image: three
     },
     {
